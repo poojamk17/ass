@@ -1,0 +1,24 @@
+.add{
+    border: 1px solid red;
+    margin-left: 25%;
+    /* margin-top: 25%; */
+    width: 40%;
+    height:50%;
+}
+
+label{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+input{
+    margin-left: 20px;
+    margin-top: 25px;
+}
+button{
+    width: 25%;
+    height: 25%;
+    margin-bottom: 25%;
+    margin-top: 25%;
+    margin-left: 40%;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>assForm</title>
+</head>
+<body>
+    <legend>
+        <fieldset>
+            <!-- form -->
+            <form onsubmit="validateForm()" action="welcome.html" method="get">
+                <div>
+                    <label for="">user name</label>
+                </div>
+                
+                <div>
+                    <input onkeyup="validateForm()" name="uname" type="text" required>
+                </div>
+                <div>
+                        <!-- <span style="display: none" >  userName is invalid !!!</span>  -->
+                    <h5  id="usn" name='usn' style="display:none">
+                            userName is invalid !!!
+                    </h5>
+                </div>
+                
+                <div>
+                    <label for="">Password</label>
+                </div>
+                
+                <div>
+                    <input onkeyup="validateForm()" name="psw" type="password" required>
+                </div>
+                <div>
+                    <h5 id="pass" name="pass" style="visibility: hidden">
+                        password is invalid !!!
+                    </h5>
+                </div>
+                
+                <br>
+                <!-- disable is used to the button disabled -->
+                <div>
+                    <input type="submit" name="loginSubmit" value="Login" disabled>
+                </div>
+                
+               
+            </form>
+        </fieldset>
+    </legend>
+
+    <script src="assignForm.js"></script>
+</body>
+</html>
